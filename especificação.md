@@ -8,8 +8,8 @@ Tendo como dado de entrada a altura `h` de uma pessoa, construa um script que ca
 O script deve exibir para o usuário a seguinte mensagem:
 
 ```markdown
-Se você for homem o seu peso ideal é (peso).
-Se você for mulher o seu peso ideal é (peso).
+Se você for homem o seu peso ideal é [peso].
+Se você for mulher o seu peso ideal é [peso].
 ```
 
 Utilize uma chamada da função `print` por linha passando `f'string'` para o print.
