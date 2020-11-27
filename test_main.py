@@ -21,9 +21,9 @@ class Test(unittest.TestCase):
             assert mock_input.call_count == 1
             ph = 72.7 * h - 58
             pm = 62.1 * h - 44.7
-            mock_print.called_with(
+            mock_print.assert_called_with(
                 f'Se você for homem o seu peso ideal é {ph}.')
-            mock_print.called_with(
+            mock_print.assert_called_with(
                 f'Se você for mulher o seu peso ideal é {pm}.')
 
 
